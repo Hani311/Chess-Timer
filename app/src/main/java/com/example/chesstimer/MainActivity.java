@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mTextViewCountDown2;
     private ImageButton mButtonStartPause;
     private ImageButton mButtonStartPause2;
-    private Button mButtonReset;
+    private ImageButton mButtonReset;
     private CountDownTimer mCountDownTimer;
 
     private long mTimeLeftInMillis = START_TIME_IN_MILLIS;

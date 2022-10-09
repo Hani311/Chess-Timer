@@ -65,14 +65,13 @@
         app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_reset"
-        android:layout_width="109dp"
-        android:layout_height="68dp"
+        android:layout_width="137dp"
+        android:layout_height="101dp"
         android:layout_below="@+id/text_view_countdown"
         android:layout_toEndOf="@+id/button_start_pause"
-        android:text="Reset"
-        android:textColor="@color/white"
+        android:background="@drawable/reset2"
         app:layout_constraintBottom_toTopOf="@+id/button_start_pause2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
