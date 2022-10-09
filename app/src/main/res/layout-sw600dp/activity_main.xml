@@ -10,8 +10,8 @@
 
     <ImageButton
         android:id="@+id/button_start_pause"
-        android:layout_width="413dp"
-        android:layout_height="366dp"
+        android:layout_width="921dp"
+        android:layout_height="517dp"
         android:layout_below="@+id/text_view_countdown"
         android:layout_centerHorizontal="true"
         android:text="start"
@@ -23,29 +23,31 @@
 
     <ImageButton
         android:id="@+id/button_start_pause2"
-        android:layout_width="416dp"
-        android:layout_height="369dp"
+        android:layout_width="988dp"
+        android:layout_height="593dp"
         android:layout_below="@+id/text_view_countdown"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
         android:contentDescription="@string/app_name"
         android:text="start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/text_view_countdown"
         android:layout_width="170dp"
         android:layout_height="266dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="76dp"
         android:rotation="91"
         android:text="00:00"
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="60sp"
+        android:textSize="70sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,16 +55,16 @@
         android:id="@+id/text_view_countdown2"
         android:layout_width="170dp"
         android:layout_height="266dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="196dp"
         android:rotation="90"
         android:text="00:00"
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="60sp"
+        android:textSize="70sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -72,7 +74,6 @@
         android:layout_below="@+id/text_view_countdown"
         android:layout_toEndOf="@+id/button_start_pause"
         android:text="Reset"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/button_start_pause2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
