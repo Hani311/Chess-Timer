@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
                 .setIcon(android.R.drawable.btn_star_big_on)
                 .setTitle("Welcome")
                 .setMessage("Set the time")
-                .setPositiveButton("20 min", new DialogInterface.OnClickListener() {
+                .setPositiveButton("20 Min", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         //set what would happen when positive button is clicked
@@ -175,12 +175,12 @@ public class MainActivity extends AppCompatActivity {
                         mTimeLeftInMillis2 = 1200000;
                     }
                 })
-                .setNegativeButton("10 Min", new DialogInterface.OnClickListener() {
+                .setNegativeButton("40 Min", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         //set what should happen when negative button is clicked
-                        mTimeLeftInMillis = 600000;
-                        mTimeLeftInMillis2 = 600000;
+                        mTimeLeftInMillis = 2400000;
+                        mTimeLeftInMillis2 = 2400000;
 
                     }
                 })
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void dialogPlayer() {
         AlertDialog alertDialog2 = new AlertDialog.Builder(this)
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(android.R.drawable.btn_star_big_on)
                 .setTitle("Welcome")
                 .setMessage("Who is starting?")
                 .setPositiveButton("Player two ⇈ ", new DialogInterface.OnClickListener() {
